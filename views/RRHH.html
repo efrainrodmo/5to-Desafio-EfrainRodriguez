@@ -6,44 +6,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../src/assets/img/favicon-16x16.png">
     
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
     <!-- CSS -->
     <link rel="stylesheet" href="../style.css">
     
     <title>RRHH</title>
 </head>
 <body>
-    <header>
-        <a href="../index.html">
-            <img src="../src/assets/img/logo.png" width="220" height="220" alt="Logo Mec&Dies Engineering">
-        </a>
-        <nav>
-            <ul>
-                <li class="menu-navegacion"><a href="../index.html">Inicio</a></li>
-                <li class="menu-navegacion"><a href="Servicios.html">Servicios</a></li>
-                <li class="menu-navegacion"><a href="Certificaciones.html">Certificaciones</a></li>
-                <li class="menu-navegacion"><a href="RRHH.html">RRHH</a></li>
-                <li class="menu-navegacion"><a href="Contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <h1 class="titulos">RRHH</h1>
+    <header role="banner">
+        <nav class="navbar navbar-expand-xl navbar-light" style="background-color: #5eb3f0;">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="../index.html"> Mec&Dies Engineering
+                <img src="../src/assets/img/logo.png" width=10% height=10% alt="Logo Mec&Dies Engineering">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+              data-bs-target="#navbarLight" aria-controls="navbarLight" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse show" id="navbarLight">
+                <ul class="navbar-nav me-auto mb-2 mb-xl-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="../views/Servicios.html">Servicios</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="../views/Certificaciones.html">Certificaciones</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="RRHH.html">RRHH</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="../views/Contacto.html">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+      </header>
 
     <section>
-        <h2 class="titulos-secundarios">Trabaja con Nosotros</h2>
-        <p id="parrafo-trabaja-nos">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, dolore voluptatem exercitationem quia 
-            oluta dolorem eaque veritatis quaerat omnis quos aliquam laborum nobis odit ullam dolores. 
-            Eos delectus dolores deleniti?
-        </p>
-
-<!--Aquí iría un formulario para cargar CV-->
+        <h2 class="titulos">Trabaja con Nosotros</h2>
+        <input type="text" class="form-control" id="form-nombre" placeholder="Pedro Perez">
+        <input type="email" class="form-control" id="form-email" placeholder="mail@ejemplo.com">
+        <input class="form-control" type="file" id="form-cv">
+        <div class="form-floating">
+            <textarea class="form-control" 
+            placeholder="Deja un comentario acá" id="form-comentarios" style="height: 100px">
+            </textarea>
+        </div>
+        <button type="button" class="btn btn-primary" id="boton-rrhh">Enviar</button>
     </section>
 
     <footer>
         <section>
             <nav>
-                <h3 id="siguenos">Síguenos</h3>
                 <ul>
                     <li class="redes-sociales">
                         <a href="https://www.twitter.com/" target="blank_">
@@ -81,5 +102,9 @@
             </nav>
             </section>
     </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" 
+crossorigin="anonymous"></script>
 </body>
 </html>

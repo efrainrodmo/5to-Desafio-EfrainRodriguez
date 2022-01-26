@@ -304,6 +304,10 @@ footer {
 /* Finaliza index.html */
 
 /* Inicia Servicios.html */
+#servicios {
+    margin: 30px;
+}
+
 .titulos {
     display: inline-block;
     font-weight: 400;
@@ -363,13 +367,48 @@ footer {
 /* Finaliza Servicios.html */
 
 /*Inicia RRHH.html */
-#parrafo-trabaja-nos {
-    position: relative;
-    top: 50px;
-    width: 80%;
-    padding-left: 40px;
-    font-family: 'Nunito', sans-serif;
+
+#form-nombre {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    margin-left: 30%;
+    margin-bottom: 10px;
 }
+
+#form-email {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    margin-left: 30%;
+    margin-bottom: 10px;
+}
+
+#form-cv {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    margin-left: 30%;
+    margin-bottom: 10px;
+}
+
+#form-comentarios {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    margin-left: 30%;
+    margin-bottom: 10px;
+}
+
+#boton-rrhh {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    margin-left: 30%;
+    margin-bottom: 10px;
+}
+
+
 /* Finaliza RRHH.html */
 
 /* Inicia Certificaciones.html */
@@ -522,4 +561,24 @@ footer {
     font-size: 1.5em;
     font-weight: bold;
 }
+
+.map-container-7{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    }
+    .map-container-7 iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    }
 /* Finaliza Contacto.html */
+
+
+
+
+
+
