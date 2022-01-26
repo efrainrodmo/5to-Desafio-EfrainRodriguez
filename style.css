@@ -304,6 +304,10 @@ footer {
 /* Finaliza index.html */
 
 /* Inicia Servicios.html */
+#servicios {
+    margin: 30px;
+}
+
 .titulos {
     display: inline-block;
     font-weight: 400;
