@@ -1,0 +1,116 @@
+@import '../base/variables';
+
+/* Inicia Certificaciones */
+
+#seccion-certificaciones{
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    height: 800px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#img-iso-9001 {
+    position: relative;
+    top: 50px;
+    left: 195px;
+    width: 300px;
+    height: 200px;
+}
+
+#parrafo-iso-9001 {
+    position: relative;
+    top: 60px;
+    left: 240px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+
+#img-iram {
+    position: absolute;
+    top: 50px;
+    left: 580px;
+    width: 200px;
+    height: 200px;
+}
+
+#parrafo-iram {
+    position: absolute;
+    top: 264px;
+    left: 580px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+
+#img-bureau {
+    position: absolute;
+    top: 80px;
+    left: 870px;
+    width: 320px;
+    height: 150px;
+}
+
+#parrafo-bureau {
+    position: absolute;
+    top: 264px;
+    left: 930px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+
+#img-iso-14001 {
+    position: absolute;
+    top: 450px;
+    left: 195px;
+    width: 300px;
+    height: 200px;
+}
+
+#parrafo-iso-14001 {
+    position: absolute;
+    top: 660px;
+    left: 240px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+
+#img-iatf {
+    position: absolute;
+    top: 450px;
+    left: 580px;
+    width: 200px;
+    height: 200px;
+}
+
+#parrafo-iatf {
+    position: absolute;
+    top: 660px;
+    left: 580px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+
+#img-iso-45001 {
+    position: absolute;
+    top: 480px;
+    left: 910px;
+    width: 230px;
+    height: 150px;
+}
+
+#parrafo-iso-45001 {
+    position: absolute;
+    top: 660px;
+    left: 930px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+
+/* Finaliza Certificaciones */
