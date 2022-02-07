@@ -2,6 +2,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
 header {
   text-align: left;
   font-family: "Nunito", sans-serif;
@@ -281,5 +285,220 @@ footer {
   width: 150px;
   height: 100px;
 }
+
+/* Finaliza index */
+/* Inicia RRHH */
+#form-nombre {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  margin-left: 30%;
+  margin-bottom: 10px;
+}
+
+#form-email {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  margin-left: 30%;
+  margin-bottom: 10px;
+}
+
+#form-cv {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  margin-left: 30%;
+  margin-bottom: 10px;
+}
+
+#form-comentarios {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  margin-left: 30%;
+  margin-bottom: 10px;
+}
+
+#boton-rrhh {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  margin-left: 30%;
+  margin-bottom: 10px;
+}
+
+/* Finaliza RRHH */
+/* Inicia Certificaciones */
+#seccion-certificaciones {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  height: 800px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+#img-iso-9001 {
+  position: relative;
+  top: 50px;
+  left: 195px;
+  width: 300px;
+  height: 200px;
+}
+
+#parrafo-iso-9001 {
+  position: relative;
+  top: 60px;
+  left: 240px;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+}
+
+#img-iram {
+  position: absolute;
+  top: 50px;
+  left: 580px;
+  width: 200px;
+  height: 200px;
+}
+
+#parrafo-iram {
+  position: absolute;
+  top: 264px;
+  left: 580px;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+}
+
+#img-bureau {
+  position: absolute;
+  top: 80px;
+  left: 870px;
+  width: 320px;
+  height: 150px;
+}
+
+#parrafo-bureau {
+  position: absolute;
+  top: 264px;
+  left: 930px;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+}
+
+#img-iso-14001 {
+  position: absolute;
+  top: 450px;
+  left: 195px;
+  width: 300px;
+  height: 200px;
+}
+
+#parrafo-iso-14001 {
+  position: absolute;
+  top: 660px;
+  left: 240px;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+}
+
+#img-iatf {
+  position: absolute;
+  top: 450px;
+  left: 580px;
+  width: 200px;
+  height: 200px;
+}
+
+#parrafo-iatf {
+  position: absolute;
+  top: 660px;
+  left: 580px;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+}
+
+#img-iso-45001 {
+  position: absolute;
+  top: 480px;
+  left: 910px;
+  width: 230px;
+  height: 150px;
+}
+
+#parrafo-iso-45001 {
+  position: absolute;
+  top: 660px;
+  left: 930px;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+}
+
+/* Finaliza Certificaciones */
+/* Inicia Contacto */
+#google-maps {
+  position: relative;
+  left: 300px;
+  top: 50px;
+  width: 700px;
+  height: 400px;
+  padding-top: 30px;
+}
+
+.contacto {
+  display: inline-block;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 30px;
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+  color: white;
+  outline: none;
+  text-decoration: none;
+}
+
+#escribenos {
+  position: relative;
+  left: 530px;
+  top: 50px;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+#llamanos {
+  position: relative;
+  left: 540px;
+  top: 50px;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.map-container-7 {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.map-container-7 iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.row {
+  padding-top: 50px;
+}
+
+/* Finaliza contacto */
 
 /*# sourceMappingURL=style.css.map */
