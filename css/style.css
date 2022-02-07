@@ -1,584 +1,285 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
-/* Fonts de Google*/
-@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
-
-
-/* Inicio index.html */
-
-/* Inicia header */
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
 header {
-    text-align: left;
-    font-family: 'Nunito', sans-serif;
-    color: white;
-    background-color: royalblue;
-    width: 100%;
+  text-align: left;
+  font-family: "Nunito", sans-serif;
+  color: white;
+  background-color: royalblue;
+  width: 100%;
 }
 
-.menu {
-    display: flex;
-    justify-content: center;
+a:link {
+  color: white;
 }
 
-.menu-navegacion {
-    width: 80%;
-    display: flex;
-    justify-content: space-evenly;
-    margin: 30px 30px;
-    text-align: center;
-    font-family: 'Nunito', sans-serif;
-    color: white;
-    outline: none;
-    text-decoration: none;
+a:visited {
+  color: white;
 }
 
-/* Estilo de links */
-a:link {color: white;}
-a:visited {color: white;}
-
-/*Finaliza header */
-
-/* Inicia sección carrusel*/
-
-.carrusel {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    height: 100px;
-    margin: 40px 0;
-}
-
-.carrusel-item:hover {
-    display: flex;
-    align-items: center;
-    margin: 0 40px;
-    transition: all 3s;
-    transform: scale(3);
-}
-/* Finaliza sección carrusel*/
-
-/* Inicia sección nosotros */
-
-.section-casos-clientes {
-    display: inline-block;
-    /* display: flex; */
-    position: relative;
-    width: 100%;
-    margin-top: 40px;
-    margin-bottom: 40px;
-}
-.titulo-nosotros {
-    /* display: inline-block; */
-    display: flex;
-    font-weight: 400;
-    font-style:italic;
-    font-weight: bold;
-    font-family: 'Nunito', sans-serif;
-    padding-left: 40px;
-    margin-bottom: 15px;
-}
-.grid-nosotros {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    grid-column-gap: 24px;
-    grid-row-gap: 14px;
-}
-
-.grid-nosotros-texto {
-    grid-area: 1 / 1 / 3 / 2; 
-}
-
-.grid-nosotros-img-1 {
-    grid-area: 1 / 2 / 2 / 4; 
-}
-
-.grid-nosotros-img-2 {
-    grid-area: 2 / 2 / 3 / 3; 
-}
-
-.grid-nosotros-img-3 {
-    grid-area: 2 / 3 / 3 / 4; 
-}
-
-.parrafo-nosotros {
-    position: relative;
-    width: 450px;
-    height: 630px;
-    padding-left: 40px;
-    padding-top: 40px;
-    font-family: 'Nunito', sans-serif;
-}
-
-.imagen-nos-1 {
-    /* position: absolute; */
-    left: 630px;
-    top: 0px;
-    width: 700px;
-    height: 400px;
-    padding-top: 30px;
-}
-
-.imagen-nos-2 {
-    /* position: absolute; */
-    left: 630px;
-    top: 430px;
-    width: 356px;
-    height: 90%;
-    padding-top: 10px;
-}
-
-.imagen-nos-3 {
-    /* position: absolute; */
-    left: 979px;
-    top: 430px;
-    width: 340px;
-    height: 90%;
-    padding-top: 10px;
-}
-/* Finaliza sección nosotros */
-
-/* Inicia sección casos de éxito */
-
-#titulo-casos {
-    display: inline-block;
-    position: absolute;
-    top: 0px;
-    font-weight: 400;
-    font-style:italic;
-    font-weight: bold;
-    font-family: 'Nunito', sans-serif;
-    padding-left: 40px;
-    margin-bottom: 15px;
-}
-
-#imagen-casos-1{
-    position: relative;
-    top: 50px;
-    left: 240px;
-    width: 200px;
-    height: 200px;
-}
-
-#parrafo-casos {
-    text-align: center;
-}
-
-#imagen-casos {
-    top: 50px;
-    left: 480px;
-    width: 200px;
-    height: 200px;
-    text-align: center;
-}
-
-#imagen-casos-3 {
-    position: absolute;
-    top: 50px;
-    left: 720px;
-    width: 200px;
-    height: 200px;
-}
-
-#parrafo-casos-3 {
-    position: absolute;
-    top: 264px;
-    left: 720px;
-    width: 200px;
-    height: 200px;
-    text-align: center;
-}
-
-#imagen-casos-4 {
-    position: absolute;
-    top: 50px;
-    left: 960px;
-    width: 200px;
-    height: 200px;
-}
-
-#parrafo-casos-4 {
-    position: absolute;
-    top: 264px;
-    left: 960px;
-    width: 200px;
-    height: 200px;
-    text-align: center;
-}
-/*Finaliza sección Casos de éxito */
-
-/* Inicia sección Nuestros clientes */
-#titulo-clientes {
-    display: inline-block;
-    position: absolute;
-    top: 0px;
-    font-weight: 400;
-    font-style:italic;
-    font-weight: bold;
-    font-family: 'Nunito', sans-serif;
-    padding-left: 40px;
-    margin-bottom: 15px;
-}
-
-#logo-ford{
-    position: relative;
-    top: 50px;
-    left: 40px;
-    width: 300px;
-    height: 100px;
-}
-
-#logo-vw {
-    position: absolute;
-    top: 0px;
-    left: 380px;
-    width: 200px;
-    height: 200px;
-}
-
-#logo-gestamp {
-    position: absolute;
-    top: 50px;
-    left: 630px;
-    width: 200px;
-    height: 100px;
-}
-
-#logo-psa {
-    position: absolute;
-    top: 60px;
-    left: 910px;
-    width: 200px;
-    height: 75px;
-}
-
-#logo-toyota {
-    position: absolute;
-    top: 50px;
-    left: 1160px;
-    width: 150px;
-    height: 100px;
-}
-/* Finaliza sección Nuestros clientes */
-
-/*Inicia sección footer */
+/*Footer*/
 footer {
-    text-align: center;
-    font-family: 'Nunito', sans-serif;
-    color: white;
-    background-color: #5eb3f0;
-    width: 100%;
-    margin-top: 100px;
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+  color: white;
+  background-color: #5eb3f0;
+  width: 100%;
+  margin-top: 100px;
 }
 
 #siguenos {
-    display: inline-block;
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    font-weight: 400;
-    font-style:italic;
-    font-weight: bold;
-    font-family: 'Nunito', sans-serif;
-    padding-left: 40px;
-    margin-bottom: 30px;
+  display: inline-block;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  font-weight: 400;
+  font-style: italic;
+  font-weight: bold;
+  font-family: "Nunito", sans-serif;
+  padding-left: 40px;
+  margin-bottom: 30px;
 }
 
 .redes-sociales:hover {
-    display: inline-block;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin: 30px;
-    text-align: center;
-    font-family: 'Nunito', sans-serif;
-    color: white;
-    outline: none;
-    text-decoration: none;
-    transform: scale(1.5);
-    transition: all 1.5s;
-}
-/* Finaliza sección footer */
-/* Finaliza index.html */
-
-/* Inicia Servicios.html */
-#servicios {
-    margin: 30px;
+  display: inline-block;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 30px;
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+  color: white;
+  outline: none;
+  text-decoration: none;
+  transform: scale(1.5);
+  transition: all 1.5s;
 }
 
-.titulos {
-    display: inline-block;
-    font-weight: 400;
-    font-style:italic;
-    font-weight: bold;
-    font-family: 'Nunito', sans-serif;
-    padding-top: 30px;
-    padding-left: 40px;
-    margin-bottom: 15px;
+/*Index*/
+.menu {
+  display: flex;
+  justify-content: center;
 }
 
-.titulos-secundarios {
-    display: inline-block;
-    position: absolute;
-    top: 0px;
-    font-weight: 400;
-    font-style:italic;
-    font-weight: bold;
-    font-family: 'Nunito', sans-serif;
-    padding-left: 40px;
-    margin-bottom: 15px;
+.menu-navegacion {
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 30px 30px;
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+  color: white;
+  outline: none;
+  text-decoration: none;
 }
 
-#parrafo-matrices {
-    position: relative;
-    top: 50px;
-    width: 80%;
-    padding-left: 40px;
-    font-family: 'Nunito', sans-serif;
+.carrusel {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 100px;
+  margin: 40px 0;
 }
 
-#img-matriz {
-    position: relative;
-    left: 300px;
-    top: 50px;
-    width: 700px;
-    height: 400px;
-    padding-top: 30px;
+.carrusel-item:hover {
+  display: flex;
+  align-items: center;
+  margin: 0 40px;
+  transition: all 3s;
+  transform: scale(3);
 }
 
-#parrafo-soldaduras {
-    position: relative;
-    top: 50px;
-    width: 80%;
-    padding-left: 40px;
-    font-family: 'Nunito', sans-serif;
+.section-casos-clientes {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
-#img-soldadura {
-    position: relative;
-    left: 300px;
-    top: 50px;
-    width: 700px;
-    height: 400px;
-    padding-top: 30px;
-}
-/* Finaliza Servicios.html */
-
-/*Inicia RRHH.html */
-
-#form-nombre {
-    width: 40%;
-    display: flex;
-    justify-content: center;
-    margin-left: 30%;
-    margin-bottom: 10px;
+.titulo-nosotros {
+  display: flex;
+  font-weight: 400;
+  font-style: italic;
+  font-weight: bold;
+  font-family: "Nunito", sans-serif;
+  padding-left: 40px;
+  margin-bottom: 15px;
 }
 
-#form-email {
-    width: 40%;
-    display: flex;
-    justify-content: center;
-    margin-left: 30%;
-    margin-bottom: 10px;
+.grid-nosotros {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 24px;
+  grid-row-gap: 14px;
 }
 
-#form-cv {
-    width: 40%;
-    display: flex;
-    justify-content: center;
-    margin-left: 30%;
-    margin-bottom: 10px;
+.grid-nosotros-texto {
+  grid-area: 1/1/3/2;
 }
 
-#form-comentarios {
-    width: 40%;
-    display: flex;
-    justify-content: center;
-    margin-left: 30%;
-    margin-bottom: 10px;
+.grid-nosotros-img-1 {
+  grid-area: 1/2/2/4;
 }
 
-#boton-rrhh {
-    width: 40%;
-    display: flex;
-    justify-content: center;
-    margin-left: 30%;
-    margin-bottom: 10px;
+.grid-nosotros-img-2 {
+  grid-area: 2/2/3/3;
 }
 
-
-/* Finaliza RRHH.html */
-
-/* Inicia Certificaciones.html */
-#seccion-certificaciones{
-    display: inline-block;
-    position: relative;
-    width: 100%;
-    height: 800px;
-    margin-top: 40px;
-    margin-bottom: 40px;
+.grid-nosotros-img-3 {
+  grid-area: 2/3/3/4;
 }
 
-#img-iso-9001 {
-    position: relative;
-    top: 50px;
-    left: 195px;
-    width: 300px;
-    height: 200px;
+.parrafo-nosotros {
+  position: relative;
+  width: 450px;
+  height: 630px;
+  padding-left: 40px;
+  padding-top: 40px;
+  font-family: "Nunito", sans-serif;
 }
 
-#parrafo-iso-9001 {
-    position: relative;
-    top: 60px;
-    left: 240px;
-    width: 200px;
-    height: 200px;
-    text-align: center;
+.imagen-nos-1 {
+  left: 630px;
+  top: 0px;
+  width: 700px;
+  height: 400px;
+  padding-top: 30px;
 }
 
-#img-iram {
-    position: absolute;
-    top: 50px;
-    left: 580px;
-    width: 200px;
-    height: 200px;
+.imagen-nos-2 {
+  left: 630px;
+  top: 430px;
+  width: 356px;
+  height: 90%;
+  padding-top: 10px;
 }
 
-#parrafo-iram {
-    position: absolute;
-    top: 264px;
-    left: 580px;
-    width: 200px;
-    height: 200px;
-    text-align: center;
+.imagen-nos-3 {
+  left: 979px;
+  top: 430px;
+  width: 340px;
+  height: 90%;
+  padding-top: 10px;
 }
 
-#img-bureau {
-    position: absolute;
-    top: 80px;
-    left: 870px;
-    width: 320px;
-    height: 150px;
+#titulo-casos {
+  display: inline-block;
+  position: absolute;
+  top: 0px;
+  font-weight: 400;
+  font-style: italic;
+  font-weight: bold;
+  font-family: "Nunito", sans-serif;
+  padding-left: 40px;
+  margin-bottom: 15px;
 }
 
-#parrafo-bureau {
-    position: absolute;
-    top: 264px;
-    left: 930px;
-    width: 200px;
-    height: 200px;
-    text-align: center;
+#imagen-casos-1 {
+  position: relative;
+  top: 50px;
+  left: 240px;
+  width: 200px;
+  height: 200px;
 }
 
-#img-iso-14001 {
-    position: absolute;
-    top: 450px;
-    left: 195px;
-    width: 300px;
-    height: 200px;
+#parrafo-casos {
+  text-align: center;
 }
 
-#parrafo-iso-14001 {
-    position: absolute;
-    top: 660px;
-    left: 240px;
-    width: 200px;
-    height: 200px;
-    text-align: center;
+#imagen-casos {
+  top: 50px;
+  left: 480px;
+  width: 200px;
+  height: 200px;
+  text-align: center;
 }
 
-#img-iatf {
-    position: absolute;
-    top: 450px;
-    left: 580px;
-    width: 200px;
-    height: 200px;
+#imagen-casos-3 {
+  position: absolute;
+  top: 50px;
+  left: 720px;
+  width: 200px;
+  height: 200px;
 }
 
-#parrafo-iatf {
-    position: absolute;
-    top: 660px;
-    left: 580px;
-    width: 200px;
-    height: 200px;
-    text-align: center;
+#parrafo-casos-3 {
+  position: absolute;
+  top: 264px;
+  left: 720px;
+  width: 200px;
+  height: 200px;
+  text-align: center;
 }
 
-#img-iso-45001 {
-    position: absolute;
-    top: 480px;
-    left: 910px;
-    width: 230px;
-    height: 150px;
+#imagen-casos-4 {
+  position: absolute;
+  top: 50px;
+  left: 960px;
+  width: 200px;
+  height: 200px;
 }
 
-#parrafo-iso-45001 {
-    position: absolute;
-    top: 660px;
-    left: 930px;
-    width: 200px;
-    height: 200px;
-    text-align: center;
-}
-/* Finaliza Certificaciones.html */
-
-/* Inicia Contacto.html */
-#google-maps {
-    position: relative;
-    left: 300px;
-    top: 50px;
-    width: 700px;
-    height: 400px;
-    padding-top: 30px;
+#parrafo-casos-4 {
+  position: absolute;
+  top: 264px;
+  left: 960px;
+  width: 200px;
+  height: 200px;
+  text-align: center;
 }
 
-.contacto {
-    display: inline-block;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin: 30px;
-    text-align: center;
-    font-family: 'Nunito', sans-serif;
-    color: white;
-    outline: none;
-    text-decoration: none;
+#titulo-clientes {
+  display: inline-block;
+  position: absolute;
+  top: 0px;
+  font-weight: 400;
+  font-style: italic;
+  font-weight: bold;
+  font-family: "Nunito", sans-serif;
+  padding-left: 40px;
+  margin-bottom: 15px;
 }
 
-#escribenos {
-    position: relative;
-    left: 530px;
-    top: 50px;
-    font-size: 1.5em;
-    font-weight: bold;
+#logo-ford {
+  position: relative;
+  top: 50px;
+  left: 40px;
+  width: 300px;
+  height: 100px;
 }
 
-#llamanos {
-    position: relative;
-    left: 540px;
-    top: 50px;
-    font-size: 1.5em;
-    font-weight: bold;
+#logo-vw {
+  position: absolute;
+  top: 0px;
+  left: 380px;
+  width: 200px;
+  height: 200px;
 }
 
-.map-container-7{
-    overflow:hidden;
-    padding-bottom:56.25%;
-    position:relative;
-    height:0;
-    }
-    .map-container-7 iframe{
-    left:0;
-    top:0;
-    height:100%;
-    width:100%;
-    position:absolute;
-    }
-/* Finaliza Contacto.html */
+#logo-gestamp {
+  position: absolute;
+  top: 50px;
+  left: 630px;
+  width: 200px;
+  height: 100px;
+}
 
+#logo-psa {
+  position: absolute;
+  top: 60px;
+  left: 910px;
+  width: 200px;
+  height: 75px;
+}
 
+#logo-toyota {
+  position: absolute;
+  top: 50px;
+  left: 1160px;
+  width: 150px;
+  height: 100px;
+}
 
-
-
-
+/*# sourceMappingURL=style.css.map */

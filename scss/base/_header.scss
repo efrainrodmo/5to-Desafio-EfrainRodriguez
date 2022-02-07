@@ -1,0 +1,12 @@
+@import '../base/variables';
+
+header {
+    text-align: left;
+    font-family: $font;
+    color: $font-color;
+    background-color: $bg-color;
+    width: 100%;
+}
+
+a:link {color: $font-color;}
+a:visited {color: $font-color;}
